@@ -2,9 +2,9 @@
 
 This repository provides the Brother SDK packaged as a reusable `.aar` file, ready to be integrated into any Android project.
 
-More information here:
+More information here:  
 [https://support.brother.com/g/s/es/htmldoc/mobilesdk/index.html](https://support.brother.com/g/s/es/htmldoc/mobilesdk/index.html)
-[https://www.brother.co.jp/eng/dev/mobilesdk/ios/index.aspx](https://www.brother.co.jp/eng/dev/mobilesdk/ios/index.aspx)
+[https://support.brother.com/g/s/es/dev/en/mobilesdk/android/index.html](https://support.brother.com/g/s/es/dev/en/mobilesdk/android/index.html)
 
 ## Installation
 
