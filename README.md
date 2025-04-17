@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/johnvuko/BrotherPrintLibrary.svg)](https://jitpack.io/#johnvuko/BrotherPrintLibrary)
+
 # BrotherPrintLibrary
 
 This repository provides the Brother SDK packaged as a reusable `.aar` file, ready to be integrated into any Android project.

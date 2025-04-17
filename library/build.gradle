@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        minSdkVersion 21
+    }
+
+    namespace 'com.github.johnvuko.brotherprintlibrary'
+}
+
+dependencies {
+    implementation(name: 'BrotherPrintLibrary', ext: 'aar')
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.johnvuko'
+            artifactId = 'BrotherPrintLibrary'
+            version = '4.12.0'
+            artifact file('libs/BrotherPrintLibrary.aar')
+        }
+    }
+}
