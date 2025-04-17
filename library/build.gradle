@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.library' version '8.1.0'
     id 'maven-publish'
 }
 
@@ -28,7 +28,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.johnvuko'
             artifactId = 'BrotherPrintLibrary'
-            version = '4.12.1'
+            version = '4.12.2'
             artifact file('libs/BrotherPrintLibrary.aar')
         }
     }
