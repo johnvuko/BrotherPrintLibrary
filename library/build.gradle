@@ -1,7 +1,15 @@
-plugins {
-    id 'com.android.library' version '8.1.0'
-    id 'maven-publish'
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+    }
 }
+
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 34
@@ -9,8 +17,6 @@ android {
     defaultConfig {
         minSdkVersion 21
     }
-
-    namespace 'com.github.johnvuko.brotherprintlibrary'
 }
 
 repositories {
@@ -31,7 +37,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.johnvuko'
             artifactId = 'BrotherPrintLibrary'
-            version = '4.12.4'
+            version = '4.12.5'
             artifact file('libs/BrotherPrintLibrary.aar')
         }
     }
