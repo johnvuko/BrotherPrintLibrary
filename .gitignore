@@ -1,1 +1,47 @@
+# Built application files
+/build/
+/library/build/
+
+# Local configuration files
+/local.properties
+
+# Gradle
+/.gradle/
+/.gradle/
+/**/build/
+
+# IDE files
+.idea/
+/*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.jks
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Log files
+*.log
+
+# Compiled code
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+
+# Mac and Linux system files
 .DS_Store
+*.swp
+
+# Packaging
+*.apk
+*.ap_
+*.dex
+*.aar
+
+# Auto-generated files
+/captures/
+/output.json

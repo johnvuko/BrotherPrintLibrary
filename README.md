@@ -12,7 +12,7 @@ More information here:
 
 ### 1. Add JitPack to your `settings.gradle` (project-level)
 
-```groovy
+```
 dependencyResolutionManagement {
     repositories {
         google()
@@ -24,9 +24,9 @@ dependencyResolutionManagement {
 
 2. Add the dependency to your app-level `build.gradle`
 
-```groovy
+```
 dependencies {
-    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.12.3'
+    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.12.4'
 }
 ```
 

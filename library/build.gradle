@@ -13,14 +13,17 @@ android {
     namespace 'com.github.johnvuko.brotherprintlibrary'
 }
 
-dependencies {
-    implementation(name: 'BrotherPrintLibrary', ext: 'aar')
-}
-
 repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
     flatDir {
         dirs 'libs'
     }
+}
+
+dependencies {
+    implementation(name: 'BrotherPrintLibrary', ext: 'aar')
 }
 
 publishing {
@@ -28,7 +31,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.johnvuko'
             artifactId = 'BrotherPrintLibrary'
-            version = '4.12.3'
+            version = '4.12.4'
             artifact file('libs/BrotherPrintLibrary.aar')
         }
     }
