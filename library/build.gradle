@@ -28,7 +28,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.johnvuko'
             artifactId = 'BrotherPrintLibrary'
-            version = '4.12.2'
+            version = '4.12.3'
             artifact file('libs/BrotherPrintLibrary.aar')
         }
     }

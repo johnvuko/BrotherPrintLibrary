@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 
 ```groovy
 dependencies {
-    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.12.2'
+    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.12.3'
 }
 ```
 
