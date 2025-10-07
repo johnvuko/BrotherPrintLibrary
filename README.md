@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 
 ```
 dependencies {
-    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.12.6'
+    implementation 'com.github.johnvuko:BrotherPrintLibrary:4.13.0'
 }
 ```
 
